@@ -11,4 +11,4 @@ case $choice in
 esac
 
 sudo pkill -f /tmp/disable_awdl.sh
-sudo ifconfig awdl0 up
+sudo ifconfig awdl0 down
